@@ -4,7 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-from fastapi import FastAPI
 import requests
 import streamlit as st
 import pandas as pd
