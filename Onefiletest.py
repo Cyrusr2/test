@@ -6,6 +6,7 @@ This is a temporary script file.
 """
 import requests
 import streamlit as st
+import streamlit_pydantic as sp
 import pandas as pd
 from io import StringIO
 from PIL import Image
