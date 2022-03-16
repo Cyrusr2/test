@@ -11,6 +11,8 @@ from io import StringIO
 from PIL import Image
 import pandas as pd
 import numpy as np
+from pydantic import BaseModel
+import json
 from tensorflow.keras.models import load_model
 
 model = load_model('prediction') 
