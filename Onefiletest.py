@@ -36,7 +36,7 @@ if uploaded_file is not None:
      
        
 if st.button('Predict!'):
-    df = dataframe
+    df = pd.DataFrame(dataframe.dict(), index=[30])
     df['RPPA_Y2K'], df['RPPA_YZY'] = [1.065743, 0.693467]
     y = model.predict(df)
     y = [0 if val < 0.5 else 1 for val in y]
